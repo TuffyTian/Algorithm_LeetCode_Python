@@ -20,6 +20,7 @@ class Resolution:
         result += right
         return result
 
+
 if __name__ == '__main__':
     nums = [11, 99, 33 , 69, 77, 88, 55, 11, 33, 36,39, 66, 44, 22]
     print(Resolution().merge_sort(nums))
