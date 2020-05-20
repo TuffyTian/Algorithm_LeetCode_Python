@@ -1,3 +1,11 @@
+"""
+ * @Author: TuffyTian 
+ * @Date: 2020-05-20 19:04:08 
+ * @Last Modified by:   TuffyTian 
+ * @Last Modified time: 2020-05-20 19:04:08 
+"""
+
+
 def bubble_sort(nums: [int]):
     """
     For bubble sort the time complexity is O(n^2)

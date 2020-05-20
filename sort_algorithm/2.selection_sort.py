@@ -1,3 +1,11 @@
+"""
+ * @Author: TuffyTian 
+ * @Date: 2020-05-20 19:04:08 
+ * @Last Modified by:   TuffyTian 
+ * @Last Modified time: 2020-05-20 19:04:08 
+"""
+
+
 # 选择排序  每次一个最小值放入到数组的第一位
 def selection_sort(nums: [int]) -> [int]:
     # The selection sort's time complexity is O(n^2), every round of loop to select the lessest element. and chane with the top one

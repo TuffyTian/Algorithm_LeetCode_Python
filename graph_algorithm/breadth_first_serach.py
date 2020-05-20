@@ -1,3 +1,10 @@
+"""
+ * @Author: TuffyTian 
+ * @Date: 2020-05-20 19:04:08 
+ * @Last Modified by:   TuffyTian 
+ * @Last Modified time: 2020-05-20 19:04:08 
+"""
+
 # first, we should create the graph, the key is a vertex, but the values is the vertexs which connect with the key
 # 首先我们需要创建一个图, 字典的key就是一个节点，节点的值就是这个与这个节点相连的节点
 graph = {

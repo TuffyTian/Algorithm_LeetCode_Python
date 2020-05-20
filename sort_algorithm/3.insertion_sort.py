@@ -1,3 +1,11 @@
+"""
+ * @Author: TuffyTian 
+ * @Date: 2020-05-20 19:04:08 
+ * @Last Modified by:   TuffyTian 
+ * @Last Modified time: 2020-05-20 19:04:08 
+"""
+
+
 def insertion_sort(nums: [int]):
     """
     In every round loop, we will sort the part of the front,
