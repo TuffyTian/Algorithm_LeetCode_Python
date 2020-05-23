@@ -43,7 +43,7 @@ graph = {
 
 def dijkstar(s):
     """
-    In dijkstar, we should need foru structure to store the process.
+    In dijkstar, we need four structures to store the process.
     pq: this is a priority queue, it is the core of the process which stores (height, vertex, parent) of every vertex.
     distance: this is a map which store the result (destination, length)
     parent: to store the path, the pre-step of every vertex.
