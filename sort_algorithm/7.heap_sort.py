@@ -1,6 +1,10 @@
+# n代表这个树种有多少个元素
+# i 表示从哪里开始做heapify() 操作
 def heapify(nums, n, i):
+    # 算出两个子节点
     left = 2 * i + 1
     right = 2 * i + 2
+    # 先设置最大值为i这个节点
     largest = i
 
     if left < n and nums[i] < nums[left]:
