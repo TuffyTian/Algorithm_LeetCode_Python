@@ -11,15 +11,15 @@
 
 def binary_search(arr: [int], find_val: int):
     left = 0
-    right = len(arr)
+    right = len(arr) - 1
     index = -1
 
     while left < right:
-        mid = (right + left + 1) // 2
+        mid = (right + left) // 2
         if arr[mid] < find_val:
-            left = mid
+            left = mid + 1
         elif arr[mid] > find_val:
-            right = mid
+            right = mid - 1
         elif arr[mid] == find_val:
             index = mid
             break
@@ -28,5 +28,5 @@ def binary_search(arr: [int], find_val: int):
 
 if __name__ == "__main__":
     array = [1, 4, 5, 8, 10, 22, 44]
-    index = binary_search(array, 22)
+    index = binary_search(array, 20)
     print(index)
